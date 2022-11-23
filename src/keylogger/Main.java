@@ -4,12 +4,31 @@
  */
 package keylogger;
 
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import javax.swing.JFrame;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
 /**
  *
  * @author SadBo
  */
-public class Main {
+public class Main{
     
+    private JLabel label;
     
+    public Main(){
+        
+        
+        
+    }
+    
+    public static void main(String[] args){
+        
+        Janela jf = new Janela("Calcular idade em dias");
+        
+    }
+
     
 }
