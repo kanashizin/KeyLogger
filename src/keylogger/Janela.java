@@ -32,7 +32,7 @@ public class Janela extends JFrame implements KeyListener{
         setLocationRelativeTo(null);
         setResizable(false);
         addKeyListener(this);
-        setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);
         
     }
@@ -41,13 +41,14 @@ public class Janela extends JFrame implements KeyListener{
     public void keyTyped(KeyEvent e) {
         
         System.out.println("Key Typed");
-        
+        System.out.println(e.getKeyChar());
     }
 
     @Override
     public void keyPressed(KeyEvent e) {
         
         System.out.println("Key Pressed");
+        
         
     }
 
